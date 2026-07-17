@@ -4,14 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Genesis Examination Portal</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<div class="container">
     <h1>Genesis Examination Portal</h1>
-    <p>Welcome to the Result Verification Portal.</p>
+    <p>Result Verification Portal</p>
 
-    <script src="script.js"></script>
+    <label>Application Number</label>
+    <input type="text" placeholder="Enter Application Number">
+
+    <label>Date of Birth</label>
+    <input type="date">
+
+    <label>Security CAPTCHA</label>
+    <div class="captcha">A8K7P</div>
+
+    <input type="text" placeholder="Enter CAPTCHA">
+
+    <button onclick="goToResult()">View Result</button>
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
