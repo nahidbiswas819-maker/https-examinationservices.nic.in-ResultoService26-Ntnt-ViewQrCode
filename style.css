@@ -95,5 +95,17 @@ button{
 button:hover{
     background:#003f85;
 }
+.result-header{
+    width:100%;
+    text-align:center;
+    margin-bottom:20px;
+}
 
+.header-image{
+    width:100%;
+    max-width:1000px;
+    height:auto;
+    display:block;
+    margin:auto;
+}
 
