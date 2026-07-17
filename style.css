@@ -108,4 +108,51 @@ button:hover{
     display:block;
     margin:auto;
 }
+.marks-image{
+    margin:20px 0;
+    text-align:center;
+}
 
+.marks-image img{
+    width:100%;
+    max-width:900px;
+    height:auto;
+    border:1px solid #ccc;
+}
+/* Print Layout */
+
+@media print {
+
+    body{
+        background:white;
+        padding:0;
+    }
+
+    .container{
+        width:100%;
+        max-width:100%;
+        margin:0;
+        border:none;
+        box-shadow:none;
+        padding:15px;
+    }
+
+    button{
+        display:none;
+    }
+
+    .result-header{
+        margin-bottom:10px;
+    }
+
+    table{
+        page-break-inside:avoid;
+    }
+
+}
+<button onclick="window.print()">
+🖨 Print Result
+</button>
+<button onclick="window.print()">
+📄 Download PDF
+</button>
